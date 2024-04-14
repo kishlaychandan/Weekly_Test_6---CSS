@@ -786,7 +786,11 @@ footer>.content>div{
   }
   /* intro */
 
-  
+  @media only screen and (max-width: 1300) {
+    :root{
+        font-size: 13px;
+    }
+}
   @media only screen and (max-width: 1000px) {
     :root{
         font-size: 12px;
