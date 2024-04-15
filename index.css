@@ -565,7 +565,7 @@ header{
 }
 .Looking-for{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     height: 22rem;
     width: 100%;  
@@ -588,8 +588,8 @@ header{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2remrem;
+    padding-right: 2remrem;
 }
 .product-looking>.left{
     position: absolute;
@@ -606,10 +606,10 @@ header{
 }
 .product-looking>.items{
     margin-top: 2rem;
-    width: 14rem;
-    height: 15rem;
+    width: 8rem;
+    height: 10rem;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
@@ -618,13 +618,13 @@ header{
 }
 .product-looking>.items>img{
     /* border: 4px solid black; */
-    width: 12rem;
-    height: 10rem;
+    width: 8rem;
+    height: 9rem;
 }
 .product-looking>.items>p{
     /* border: 4px solid black; */
-    width: 12rem;
-    height: 3rem;
+    width: 8rem;
+    height: 9rem;
 }
 .product-looking>.items>.name{
     color: #ff5c47;
@@ -665,7 +665,7 @@ header{
     height: 18rem;
     background-color: black;
     margin-top: 0;
-    transform: translateY(-3rem);
+    /* transform: translateY(-3rem); */
 }
 
 .Go>.items{
@@ -696,7 +696,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-top: -5rem;
+    /* margin-top: -5rem; */
     gap: 2rem;
 }
 footer>.content{
