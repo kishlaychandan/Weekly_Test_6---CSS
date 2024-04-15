@@ -574,7 +574,7 @@ header{
     /* background-color: gray;  */
 }
 .Looking-for>h1{
-    font-size: xx-large;
+    font-size: 2rem;
 }
 .Looking-for>h1:hover{
     cursor: pointer;
@@ -588,8 +588,8 @@ header{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding-left: 2remrem;
-    padding-right: 2remrem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .product-looking>.left{
     position: absolute;
